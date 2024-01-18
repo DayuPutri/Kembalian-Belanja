@@ -36,6 +36,12 @@ void status_kembalian(int a, int n, int uang[]){
 
 int main(){
     int a = 5000;
+    int n = 5;
+    int uang[] = {5000, 5000, 5000, 10000, 20000};
+
+    // Memanggil fungsi status_kembalian
+    status_kembalian(a, n, uang);
+
 
 return 0;
 }
